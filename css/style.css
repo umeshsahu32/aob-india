@@ -567,3 +567,7 @@ h6,
   padding: 1rem;
   gap: 1rem;
 }
+
+textarea {
+  resize: none;
+}
