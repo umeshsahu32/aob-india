@@ -24,11 +24,11 @@
   padding-top: 2rem;
 }
 .card__side--front {
-  background-color: #c3c3de;
+  background-color: #dee3fa;
 }
 .card__side--back {
   transform: rotateY(180deg);
-  background-color: #c3c3de;
+  background-color: #dee3fa;
 }
 
 .card:hover .card__side--front {
