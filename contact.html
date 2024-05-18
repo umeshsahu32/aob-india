@@ -79,7 +79,7 @@
             <a href="about.html" class="nav-item nav-link">About Us</a>
             <a href="service.html" class="nav-item nav-link">Services</a>
             <a href="case-study.html" class="nav-item nav-link">Case Study</a>
-            <!-- <a href="blog-media.html" class="nav-item nav-link">Blog/Media</a> -->
+            <a href="blog-media.html" class="nav-item nav-link">Blog/Media</a>
             <a href="#" class="nav-item nav-link active">Contact</a>
           </div>
           <div class="d-none d-lg-flex ms-2">
@@ -132,7 +132,13 @@
               If You Have Any Query, Please Contact Us
             </h1>
 
-            <form>
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="e7ebfe3b-4e06-4498-83d8-dd7fe07bbe4e"
+              />
+              <input type="hidden" name="subject" value="Inquiry" />
               <div class="row g-3">
                 <div class="col-md-6">
                   <div class="form-floating">
@@ -140,6 +146,7 @@
                       type="text"
                       class="form-control"
                       id="name"
+                      name="name"
                       placeholder="Your Name"
                       required
                     />
@@ -152,30 +159,33 @@
                       type="email"
                       class="form-control"
                       id="email"
+                      name="email"
                       placeholder="Your Email"
                       required
                     />
                     <label for="email">Your Email</label>
                   </div>
                 </div>
-                <div class="col-12">
+                <!-- <div class="col-12">
                   <div class="form-floating">
                     <input
                       type="text"
                       class="form-control"
                       id="subject"
+                      name="subject"
                       placeholder="Subject"
                       required
                     />
                     <label for="subject">Subject</label>
                   </div>
-                </div>
+                </div> -->
                 <div class="col-12">
                   <div class="form-floating">
                     <textarea
                       class="form-control"
                       placeholder="Leave a message here"
                       id="message"
+                      name="message"
                       style="height: 100px"
                       required
                     ></textarea>
