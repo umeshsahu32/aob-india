@@ -275,6 +275,15 @@ h6,
   color: #ffffff !important;
 }
 
+.ai-list {
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.ai-list li {
+  margin-bottom: 0.8rem;
+}
+
 /*** Project ***/
 .project-item,
 .project-item .project-img {
