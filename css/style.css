@@ -206,7 +206,32 @@ h6,
 .page-header {
   padding-top: 12rem;
   padding-bottom: 6rem;
-  background: url(../img/header.jpg) top left no-repeat;
+  /* background: url(../img/blog-banner-1.jpg) top left no-repeat; */
+  /* background-size: cover; */
+}
+
+.page-header-img-blog {
+  background: url(../img/banners/blog-banner-1.jpg) top left no-repeat;
+  background-size: cover;
+}
+
+.page-header-img-contact {
+  background: url(../img/banners/location-banner-1.jpg) top left no-repeat;
+  background-size: cover;
+}
+
+.page-header-img-case-study {
+  background: url(../img/banners/case-study-banner-1.jpg) top left no-repeat;
+  background-size: cover;
+}
+
+.page-header-img-about-us {
+  background: url(../img/banners/about-us-banner-1.jpg) top left no-repeat;
+  background-size: cover;
+}
+
+.page-header-img-services {
+  background: url(../img/banners/services-banner-1.jpg) top left no-repeat;
   background-size: cover;
 }
 
