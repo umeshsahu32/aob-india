@@ -5,6 +5,7 @@
   --tertiary: #555555;
   --light: #dfe4fd;
   --dark: #011a41;
+  --btn-color: #002645;
 }
 
 body {
@@ -61,6 +62,16 @@ h6,
 .btn {
   transition: 0.5s;
   font-weight: 500;
+}
+
+.btn_text {
+  background-color: var(--btn-color);
+  color: #fff;
+}
+
+.btn_text:hover {
+  background-color: var(--btn-color);
+  color: #fff;
 }
 
 .btn-primary,
@@ -156,6 +167,7 @@ h6,
 }
 
 /*** Header ***/
+
 .carousel-caption {
   top: 0;
   left: 0;
@@ -211,27 +223,27 @@ h6,
 }
 
 .page-header-img-blog {
-  background: url(../img/banners/blog-banner-1.jpg) top left no-repeat;
+  background: url(../img/banners/blog-banner-2.jpg) top left no-repeat;
   background-size: cover;
 }
 
 .page-header-img-contact {
-  background: url(../img/banners/location-banner-1.jpg) top left no-repeat;
+  background: url(../img/banners/location-banner-2.jpg) top left no-repeat;
   background-size: cover;
 }
 
 .page-header-img-case-study {
-  background: url(../img/banners/case-study-banner-1.jpg) top left no-repeat;
+  background: url(../img/banners/case-study-banner-2.jpg) top left no-repeat;
   background-size: cover;
 }
 
 .page-header-img-about-us {
-  background: url(../img/banners/about-us-banner-1.jpg) top left no-repeat;
+  background: url(../img/banners/about-us-banner-2.jpg) top left no-repeat;
   background-size: cover;
 }
 
 .page-header-img-services {
-  background: url(../img/banners/services-banner-1.jpg) top left no-repeat;
+  background: url(../img/banners/services-banner-2.jpg) top left no-repeat;
   background-size: cover;
 }
 
@@ -246,7 +258,7 @@ h6,
 
 /*** Facts ***/
 .facts {
-  background: linear-gradient(rgba(53, 94, 252, 0.95), rgba(53, 94, 252, 0.95)),
+  background: linear-gradient(rgba(0, 38, 69, 0.95), rgba(38, 138, 193, 0.95)),
     url(../img/bg.png);
 }
 
@@ -262,7 +274,7 @@ h6,
   height: 50%;
   top: 0;
   left: 0;
-  background: linear-gradient(rgba(53, 94, 252, 0.95), rgba(53, 94, 252, 0.95)),
+  background: linear-gradient(rgba(0, 38, 69, 0.95), rgba(38, 138, 193, 0.95)),
     url(../img/bg.png);
   z-index: -1;
 }
