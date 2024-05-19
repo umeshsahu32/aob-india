@@ -15,6 +15,11 @@
   font-size: 1rem;
   font-weight: 400;
   text-align: center;
+  font-family: "Roboto Condensed" !important;
+}
+
+.paragraph_text {
+  font-family: "Roboto Condensed";
 }
 
 .services {
@@ -62,11 +67,7 @@
 
 .service_container p {
   font-size: 1rem;
-  font-weight: normal;
-  font-family: "Poppins";
-  color: #303030;
-  /* line-height: 2; */
-  font-weight: 500;
+  font-family: "Roboto Condensed";
 }
 
 @media (max-width: 992px) {
