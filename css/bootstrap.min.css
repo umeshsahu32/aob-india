@@ -3601,6 +3601,9 @@ fieldset:disabled .btn {
   border: 1px solid transparent;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  font-family: "Bebas Neue";
+  letter-spacing: 2px;
+  color: #002645;
 }
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus {
@@ -3614,9 +3617,13 @@ fieldset:disabled .btn {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
-  background-color: #fff;
+  color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 38, 69, 0.95),
+    rgba(38, 138, 193, 0.95)
+  ) !important;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -6824,6 +6831,15 @@ fieldset:disabled .btn {
 .text-reset {
   color: inherit !important;
 }
+
+.text-dark-secondary {
+  color: #268ac1 !important;
+}
+
+.text-dark-primary {
+  color: #002645 !important;
+}
+
 .bg-primary {
   background-color: #355efc !important;
 }
