@@ -59,7 +59,7 @@
 }
 
 .service_container h4 {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -72,6 +72,40 @@
 
 .service_last {
   padding-bottom: 0;
+}
+
+.service-banner {
+  background: url(../img/services/service-banner-1.jpg) top left no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60vh;
+}
+
+.service-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 35%;
+  height: 100%;
+  margin-left: auto;
+  padding: 3rem 4rem;
+}
+
+.service-text h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+}
+
+.service-text p {
+  font-size: 1rem;
+  font-family: "Roboto Condensed";
+  color: #fff;
 }
 
 @media (max-width: 992px) {

@@ -394,6 +394,13 @@ h6,
   margin-top: 1rem;
 }
 
+.ai-icons img {
+  width: 2rem;
+  /* height: 1rem; */
+  object-fit: cover;
+  margin-right: 0.5rem;
+}
+
 .ai-list li {
   margin-bottom: 0.8rem;
   font-family: "Roboto Condensed";
@@ -509,6 +516,7 @@ h6,
   justify-content: space-between;
   transition: 0.5s;
   z-index: 1;
+  height: 50%;
 }
 
 .team-item:hover .team-text {
