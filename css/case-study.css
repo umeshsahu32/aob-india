@@ -94,3 +94,9 @@
 .card h4 span small {
   font-family: "Roboto Condensed";
 }
+
+@media (max-width: 568px) {
+  .footer-logo {
+    text-align: center;
+  }
+}

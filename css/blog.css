@@ -70,6 +70,10 @@
   font-family: "Roboto Condensed";
 }
 
+.service_last {
+  padding-bottom: 0;
+}
+
 @media (max-width: 992px) {
   .heading-container h3 {
     /* font-size: 2rem; */
@@ -117,8 +121,7 @@
   }
 
   .service_container h4 {
-    /* font-size: 1rem; */
-    text-align: left;
+    text-align: center;
   }
 
   .service_container p {
@@ -130,5 +133,9 @@
     min-width: 15rem;
     max-width: 15rem;
     height: 10rem;
+  }
+
+  .footer-logo {
+    text-align: center;
   }
 }

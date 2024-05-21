@@ -1,5 +1,3 @@
-/* ==== Cards using Bootstrap === */
-
 .about-us-intro {
   display: flex;
   flex-direction: column;
@@ -51,5 +49,17 @@
 @media (max-width: 1200px) {
   #cards .card .user-picture img {
     top: -20%;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-us-intro p {
+    width: 80%;
+  }
+}
+
+@media (max-width: 568px) {
+  .footer-logo {
+    text-align: center;
   }
 }

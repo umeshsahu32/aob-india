@@ -249,6 +249,10 @@ h6,
   border-radius: 3rem 0 0 3rem;
 }
 
+.blog-item img {
+  min-height: 225px;
+}
+
 @media (max-width: 768px) {
   #header-carousel .carousel-item {
     position: relative;
@@ -260,14 +264,8 @@ h6,
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top top;
   }
-}
-
-.page-header {
-  /* padding-top: 12rem; */
-  /* padding-bottom: 6rem; */
-  /* background: url(../img/blog-banner-1.jpg) top left no-repeat; */
-  /* background-size: cover; */
 }
 
 .page-header-img-blog {
@@ -720,4 +718,46 @@ h6,
 
 textarea {
   resize: none;
+}
+
+.terms_link {
+  padding: 0;
+}
+
+@media (max-width: 1100px) {
+  .navbar .navbar-nav .nav-link {
+    padding: 25px 8px;
+  }
+}
+
+@media (max-width: 992px) {
+  .page-header-img-about-us,
+  .page-header-img-blog,
+  .page-header-img-contact,
+  .page-header-img-case-study,
+  .page-header-img-services {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 568px) {
+  .page-header-img-about-us,
+  .page-header-img-blog,
+  .page-header-img-contact,
+  .page-header-img-case-study,
+  .page-header-img-services {
+    height: 40vh;
+  }
+
+  .footer-logo {
+    text-align: center !important;
+  }
+
+  .copyright-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 }
