@@ -26,6 +26,7 @@
 .card__side--front {
   background-color: #dee3fa;
 }
+
 .card__side--back {
   transform: rotateY(180deg);
   background-color: #dee3fa;

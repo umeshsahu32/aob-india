@@ -68,6 +68,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/case-study.css" rel="stylesheet" />
+    <link href="css/sidebar.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -119,7 +120,7 @@
               class="btn btn-light btn-sm-square btn_text rounded-circle ms-3"
               href=""
             >
-              <small class="fab fa-facebook-f"></small>
+              <small class="fab fa-youtube"></small>
             </a>
             <a
               class="btn btn-light btn-sm-square btn_text rounded-circle ms-3"
@@ -137,7 +138,7 @@
               class="btn btn-light btn-sm-square btn_text rounded-circle ms-3"
               href=""
             >
-              <small class="fab fa-instagram"></small>
+              <small class="fab fa-blogger"></small>
             </a>
           </div>
         </div>
@@ -847,22 +848,22 @@
               <a
                 class="btn btn-square btn-outline-light rounded-circle me-2"
                 href=""
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a
-                class="btn btn-square btn-outline-light rounded-circle me-2"
-                href=""
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a
-                class="btn btn-square btn-outline-light rounded-circle me-2"
-                href=""
                 ><i class="fab fa-youtube"></i
               ></a>
               <a
                 class="btn btn-square btn-outline-light rounded-circle me-2"
                 href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-square btn-outline-light rounded-circle me-2"
+                href=""
                 ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                class="btn btn-square btn-outline-light rounded-circle me-2"
+                href=""
+                ><i class="fab fa-blogger"></i
               ></a>
             </div>
           </div>
@@ -917,6 +918,55 @@
       class="btn btn-lg btn_text btn-lg-square rounded-circle back-to-top"
       ><i class="bi bi-arrow-up"></i
     ></a>
+
+    <!-- SIDE BAR -->
+    <div id="sidebar" class="sidebar-contact bg-primary hide-sidebar">
+      <div class="toggle"></div>
+      <h2>Contact Us</h2>
+      <div class="horizontal_line_form"></div>
+      <div class="scroll">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input
+            type="hidden"
+            name="access_key"
+            value="e7ebfe3b-4e06-4498-83d8-dd7fe07bbe4e"
+          />
+          <input type="hidden" name="subject" value="Inquiry" />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="text"
+            id="mobile"
+            placeholder="Your Mobile"
+            required
+            name="phone"
+            minlength="10"
+            maxlength="10"
+          />
+          <input
+            type="email"
+            id="mail"
+            name="email"
+            required
+            placeholder="Your Email"
+          />
+          <textarea
+            placeholder="Leave a message here"
+            id="message"
+            name="message"
+            style="height: 80px"
+            required
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- SIDE BAR -->
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

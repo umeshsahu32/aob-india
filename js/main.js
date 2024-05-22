@@ -104,3 +104,22 @@
     },
   });
 })(jQuery);
+
+//! SIDE BAR CONTACT US
+$(document).ready(function () {
+  $(".toggle").click(function () {
+    $(".sidebar-contact").toggleClass("active");
+    $(".toggle").toggleClass("active");
+  });
+});
+
+const controlNavbar = () => {
+  let elem = document.getElementById("sidebar");
+  if (window.scrollY > 400) {
+    elem.classList.remove("hide-sidebar"); // Remove class
+  } else {
+    elem.classList.add("hide-sidebar"); // Add class
+  }
+};
+
+window.addEventListener("scroll", controlNavbar);
