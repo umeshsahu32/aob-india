@@ -22,6 +22,47 @@
   font-family: "Roboto Condensed";
 }
 
+.our-services-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+  min-width: 388px;
+  height: 14rem;
+  background: linear-gradient(
+    to right,
+    rgba(0, 38, 69, 0.95),
+    rgba(38, 138, 193, 0.95)
+  ) !important;
+  color: #fff;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 9px 18px, rgba(0, 0, 0, 0.22) 0px 5px 4px;
+  border-radius: 5px;
+}
+
+.service-card h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  padding-bottom: 0.5rem;
+}
+
+.service-card p {
+  color: #fff;
+  text-align: left;
+  font-size: 1rem;
+}
+
 .services {
   background-color: #e8effc;
   padding: 3rem;
@@ -87,7 +128,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  width: 35%;
+  width: 40%;
   height: 100%;
   margin-left: auto;
   padding: 3rem 4rem;
@@ -108,6 +149,13 @@
   color: #fff;
 }
 
+@media (max-width: 1100px) {
+  .service-text {
+    width: 60%;
+    padding: 3rem 4rem;
+  }
+}
+
 @media (max-width: 992px) {
   .heading-container h3 {
     /* font-size: 2rem; */
@@ -125,7 +173,6 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding-bottom: 4rem;
   }
 
   .service_container div {
@@ -143,6 +190,55 @@
   .service_container p {
     text-align: center;
   }
+
+  .service-card {
+    width: 30%;
+    min-width: 288px;
+    height: 18rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .industries-image-mobile {
+    display: block;
+  }
+
+  .industries-image-desktop {
+    display: none;
+  }
+
+  .service-banner {
+    background-position: right;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .service-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding: 2rem;
+  }
+
+  .service-text h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+  }
+
+  .service-text p {
+    font-size: 0.8rem;
+    font-family: "Roboto Condensed";
+    color: #fff;
+    text-align: center;
+  }
 }
 
 @media (max-width: 568px) {
@@ -152,6 +248,10 @@
 
   .service_container {
     padding-bottom: 3rem;
+  }
+
+  .service_last {
+    padding-bottom: 0;
   }
 
   .service_container h4 {
