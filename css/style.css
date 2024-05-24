@@ -509,20 +509,20 @@ h6,
 
 .team-item .team-text {
   position: absolute;
-  top: 0;
-  right: 3rem;
+  top: 0.4rem;
+  right: 2rem;
   bottom: 0;
-  left: 3rem;
+  left: 2rem;
   padding: 15px;
   border: 1px solid var(--light);
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   transition: 0.5s;
   z-index: 1;
-  height: 50%;
+  height: 15%;
 }
 
 .team-item:hover .team-text {
@@ -535,8 +535,13 @@ h6,
   border-color: #fff;
 }
 
+.team-item img {
+  object-fit: cover;
+}
+
 .team-item .team-text h5 {
   transition: 0.5s;
+  font-size: 1.2rem;
 }
 
 .team-item:hover .team-text h5 {
@@ -751,6 +756,24 @@ textarea {
   text-align: center !important;
 }
 
+.class {
+  margin-bottom: -1.8rem !important;
+}
+
+@media (max-width: 1200px) {
+  .team-item .team-text h5 {
+    transition: 0.5s;
+    font-size: 1rem;
+  }
+
+  .team-item .team-text {
+    position: absolute;
+    right: 1rem;
+    left: 1rem;
+    padding: 10px;
+  }
+}
+
 @media (max-width: 1100px) {
   .navbar .navbar-nav .nav-link {
     padding: 25px 8px;
@@ -768,6 +791,28 @@ textarea {
 
   .footer-logo img {
     width: 12rem !important;
+  }
+
+  .team-item {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .team-item img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .team-item .team-text {
+    width: 50%;
+    margin: 0 auto;
+    top: 0rem;
+    right: 1rem;
+    bottom: 0;
+    left: 1rem;
+    padding: 10px;
+    padding-bottom: 15px;
   }
 }
 
@@ -790,11 +835,37 @@ textarea {
     height: 40vh;
   }
 
+  .navbar .navbar-nav .nav-link {
+    padding: 10px 15px;
+  }
+
   .copyright-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
+  }
+
+  .team-item {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .team-item .team-text {
+    width: 50%;
+    margin: 0 auto;
+    top: 0.6rem;
+  }
+
+  .team-item img {
+    height: 220px;
+    width: 220px;
+    object-fit: cover;
+  }
+
+  .team-item .team-text h5 {
+    font-size: 0.8rem !important;
   }
 }
