@@ -23,33 +23,20 @@
   font-weight: 500;
 }
 
-#cards .card {
-  border-radius: 20px;
-  min-height: 100%;
+.leader-info {
+  height: 100%;
 }
 
-#cards .heading-border {
-  position: absolute;
-  width: 100%;
-  top: 60%;
-}
-
-#cards .card .user-picture img {
-  position: absolute;
-  top: -30%;
-  right: 10%;
+.user-picture img {
+  margin-top: -7rem;
   background: #f8f9fa !important;
   padding: 10px;
 }
 
-#cards .card .user-content .user-name {
-  margin-right: 150px;
-}
-
-@media (max-width: 1200px) {
-  #cards .card .user-picture img {
-    top: -20%;
-  }
+.user-image-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media (max-width: 992px) {
