@@ -8,7 +8,7 @@
 .blog-card-container {
   display: grid;
   grid-template-columns: 400px 1fr;
-  grid-template-rows: 250px;
+  grid-template-rows: 300px;
   gap: 2rem;
   margin-bottom: 4rem;
 }
@@ -75,12 +75,16 @@
   .blog-card-services {
     padding: 2rem 1rem;
   }
+
+  .blog-card-container {
+    grid-template-rows: 350px;
+  }
 }
 
 @media (max-width: 992px) {
   .blog-card-container {
     grid-template-columns: 200px 1fr;
-    grid-template-rows: 180px;
+    grid-template-rows: 250px;
     gap: 2rem;
   }
 
