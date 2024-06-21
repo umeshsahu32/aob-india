@@ -885,3 +885,8 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+.acedmia {
+  font-family: "Bebas Neue";
+  font-size: 1.2rem;
+}

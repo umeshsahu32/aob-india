@@ -149,6 +149,10 @@
   color: #fff;
 }
 
+.mobile {
+  display: none !important;
+}
+
 @media (max-width: 1100px) {
   .service-text {
     width: 60%;
@@ -238,6 +242,14 @@
     font-family: "Roboto Condensed";
     color: #fff;
     text-align: center;
+  }
+
+  .mobile {
+    display: block !important;
+  }
+
+  .desktop {
+    display: none !important;
   }
 }
 
