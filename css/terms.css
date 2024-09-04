@@ -1,0 +1,43 @@
+.terms-section {
+  max-width: 800px;
+  margin: 8rem auto 4rem auto;
+  padding: 0 2rem;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-family: "Roboto Condensed";
+}
+
+.section-1 {
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+.policy-container {
+  margin-bottom: 30px;
+}
+
+.policy-container h3 {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 568px) {
+  .section-heading {
+    font-size: 1.6rem;
+  }
+
+  .policy-container h3 {
+    font-size: 1.2rem;
+  }
+}
